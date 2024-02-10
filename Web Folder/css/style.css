@@ -1,0 +1,219 @@
+@import 'utilities.css';
+  :root{
+    --primary: #474996;
+    --dark: #55bd74;
+    --pure: #0d1a19;
+    --ternary: #366170;
+    --light: #4d5934;
+    --natural: #dede26;
+    --super: #de8226;
+    --shining: #db1212;
+    --color2:#5b4d6b;
+    --color3:#4b0852;
+    
+  }
+  
+  header{
+    background-color: var(--dark);
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 90% 90%, 0 100%);
+    
+  }
+
+  body{
+    font-family: 'Poppins',sans-serif;
+  }
+  
+  *{
+    padding: 0; 
+    margin: 0;
+    box-sizing: border-box;
+    -webkit-font-smotthing:antialiased;
+  }
+
+.container{
+    max-width: 1152px;
+    padding: 0 15px;
+    margin: 0 auto;
+  }
+
+  header nav .left a{
+    color :var(--pure);
+    text-decoration: none;
+    margin-right:2rem;
+    text-transform: uppercase;
+  }
+  header nav .left a:hover{
+    color : var(--primary);
+  }
+
+  header nav {
+    padding :1rem 0 ;
+
+  }
+
+  header nav .branding {
+    margin-right:3rem ;
+  }
+
+  .hero{
+    padding: 3rem 0;
+  }
+
+  .hero .left img{
+    width: 400px;
+  }
+
+  .hero .right{
+    color : var(--primary);
+  }
+
+  .hero .right h3{
+    font-size: 1.6rem;
+    color: var(--super);
+    margin-bottom: 2rem;
+  }
+
+  .hero .right h1{
+    color: var(--shining);
+    font-size: 4rem;
+    font-weight: 100;
+    line-height:1.2 ;
+    margin-bottom: 1rem;
+  }
+
+  .hero .right p{
+    line-height: 1.9;
+    color: var(--natural);
+    margin-bottom: 1.5rem;
+  }
+  .hero .right button{
+    color: var(--light);
+  }
+
+  .hero .right{
+    margin-top: - 9rem;
+  }
+
+  section{
+    background-color: var(#a0b4c4b3);
+    padding: 6rem 0;
+
+  }
+
+  section.about .about-me-img{
+    height: 450px;
+  }
+
+  section.about h1{
+    text-align: center;
+    margin-bottom: 1rem;
+    font-size: 1.6rem;
+    font-weight: 400;
+    background-image: linear-gradient(#a0b4c4b3,#a0b4c4b3);
+
+  }
+  section.about h3{
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    font-weight: 400rem;
+  }
+
+  section.about p{
+    font-family: 'Lato', sans-serif;
+    color: var(--color3);
+    line-height: 2;
+    margin-bottom: 2rem;
+  }
+
+  section.about .social{
+    display: flex;
+  }
+
+  section.about .social a{
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    margin-right: 0.6rem;
+     
+  }
+
+  section.about .social a :hover{
+    background-color: var(--light);
+    transition : all .3s ease;
+
+  }
+
+  section.about .social img{
+    width: 100%;
+    height: 100%;
+    padding: 0.5rem;
+
+  }
+  section.student{
+    background-image: url(iitbbs.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  section.student .section-heading{
+    text-align: center;
+    font-size: 2rem;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(iitbbs.jpg) ;
+    color: var(--natural);
+    margin-bottom: 5rem;
+  }
+
+  section.student .detail-heading{
+    text-align: center;
+  }
+
+  .table-container {
+    width: 100%;
+    overflow-x: auto; 
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse; 
+}
+
+th, td {
+    padding: 8px;
+    border: 1px solid #ddd; 
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+.table-container{
+    background-color: #cfc3a9;
+}
+
+.table-container .Side{
+    color: var(--shining);
+}
+
+section.hobies .div h1{
+  text-align: center;
+  border-bottom: 5rem;
+  font-size: 1.6rem;
+  font-weight: 400rem;
+  padding: 1rem, 0;
+  background-color: #5b4d6b;
+  color: #0bd0bf;
+}
+
+section.hobies .div h3{
+  text-align: center;
+  padding: 0rem;
+  font-size: 1rem;
+  font-weight: 400rem;
+  border-bottom: 5rem;
+}
+
